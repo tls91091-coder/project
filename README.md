@@ -1,1 +1,59 @@
-# project
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Moon Website</title>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Cosmic Website</h1>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">What I Do</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <img src="images/moon.png" alt="Moon">
+    <h2>Welcome to My Universe</h2>
+</section>
+
+<section class="content">
+
+    <article>
+        <h3>About Me</h3>
+        <p>I love creating websites and exploring creative design inspired by space.</p>
+    </article>
+
+    <article>
+        <h3>What I Do</h3>
+        <p>I build responsive websites using HTML and CSS.</p>
+    </article>
+
+    <article>
+        <h3>Contact</h3>
+        <p>Reach out if you'd like to collaborate or learn more!</p>
+    </article>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 My Website</p>
+</footer>
+
+</body>
+</html>
