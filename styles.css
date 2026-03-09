@@ -1,0 +1,93 @@
+/* Base styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f2b;
+    color: white;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 30px;
+}
+
+.hero img {
+    width: 200px;
+    max-width: 80%;
+}
+
+/* Content layout */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content {
+    flex-direction: row;
+}
+
+article {
+    flex: 1;
+}
+
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+.hero img {
+    width: 300px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+}
