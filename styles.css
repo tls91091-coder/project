@@ -1,6 +1,5 @@
 /* Reset */
-
-{
+* {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -41,7 +40,7 @@ text-decoration: none;
 font-weight: bold;
 }
 
-nav a {
+nav a:hover {
 color: #ffd84d;
 }
 
